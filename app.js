@@ -1,3 +1,6 @@
+import React from "react";
+import ReactDOM from "react-dom/client";
+
 const parent = React.createElement("div", { id: "parent" }, [
   React.createElement("div", { key: "child1" }, [
     React.createElement("h1", { key: "h1-child1" }, "heading1"),

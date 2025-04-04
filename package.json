@@ -1,0 +1,31 @@
+{
+  "name": "harinilearningreact",
+  "version": "1.0.0",
+  "description": "This is React Learning",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LHarini1304/reactjs.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Harini L N",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LHarini1304/reactjs/issues"
+  },
+  "homepage": "https://github.com/LHarini1304/reactjs#readme",
+  "devDependencies": {
+    "parcel": "^2.14.4"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "browserslist": [
+    "last 2 version"
+  ]
+}
