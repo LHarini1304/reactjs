@@ -69,3 +69,43 @@ After making this change, the browser will correctly interpret the script as a m
 Read more about parcel: https://parceljs.org/
 
 # ==================================================================================================================
+
+⠋ Building index.html...
+node:fs:1953
+binding.unlink(getValidatedPath(path));
+^
+
+Error: ENOENT: no such file or directory, unlink 'C:\Users\hal\AppData\Local\Temp\index.html.21632.5'
+at Object.unlinkSync (node:fs:1953:11)
+at WriteStream.<anonymous> (C:\Users\hal\Learning\hariniLearningReact\node_modules\@parcel\fs\lib\index.js:1142:83)
+at Object.onceWrapper (node:events:633:26)
+at WriteStream.emit (node:events:530:35)
+at emitErrorNT (node:internal/streams/destroy:170:8)
+at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+errno: -4058,
+code: 'ENOENT',
+syscall: 'unlink',
+path: 'C:\\Users\\hal\\AppData\\Local\\Temp\\index.html.21632.5'
+}
+
+Node.js v22.14.0
+
+Reason: This usually means Parcel tried to delete or write a temp file (.b) but the file was already missing — possibly due to:
+a crash,
+a permission issue,
+or antivirus software locking the temp folder.
+
+Solution:
+
+1. Restart the Parcel Server or
+2. Clear Parcel’s Cache
+   === npx parcel clean
+   === npx parcel index.html
+
+# ==================================================================================================================
+
+What is babel?
+Read more about babel : https://babeljs.io/
+
+# ==================================================================================================================
