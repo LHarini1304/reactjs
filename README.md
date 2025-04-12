@@ -109,3 +109,49 @@ What is babel?
 Read more about babel : https://babeljs.io/
 
 # ==================================================================================================================
+
+# Food ordering app
+
+# Header
+
+----logo
+----nav
+
+# Body
+
+----search
+----restaurant list
+--------restaurant card
+----------image
+----------name
+----------cuisine
+----------star rating
+----------delivery time
+----------cost for two
+
+# Footer
+
+----CopyRight
+----Links
+----Address
+----Contact
+
+# ==================================================================================================================
+
+# Two types of Export/Import
+
+Default Export/Import
+export default <name of the variable or component>
+import <name of the variable or component> from "Path"
+
+Named Export/Import
+export const <name of the variable or component>
+import {<name of the variable or component>} from "Path"
+
+# ==============================================================================================================
+
+# React hooks
+
+(Normal JS utility function)
+useState() - Superpowerful state variables in react
+useEffect()
